@@ -56,3 +56,19 @@ button:hover {
 #hardwareList button {
   margin-left: 10px;
 }
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+#infos {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
