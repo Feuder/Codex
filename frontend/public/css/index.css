@@ -7,28 +7,33 @@ body {
   color: #333;
 }
 
-header {
+.site-header {
   background-color: #003366;
   color: #fff;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-header h1 {
+.main-nav ul {
+  list-style: none;
   margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-header nav {
-  margin-top: 10px;
-}
-
-header nav a {
-  color: #fff;
+.main-nav li {
   margin-right: 20px;
+}
+
+.main-nav a {
+  color: #fff;
   text-decoration: none;
   font-weight: 500;
 }
 
-header nav a:hover {
+.main-nav a:hover {
   text-decoration: underline;
 }
 
@@ -36,6 +41,11 @@ main {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
+}
+
+#welcome {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 #infos {
